@@ -26,3 +26,8 @@
  * End to End encryption
  * can be done NLB with TCP listener as pass through and terminating SSL on the EC2 instances
  * can be done with ALB with SSL termination and using HTTPS between ALB and EC2 instances
+ #### Management & Governance Tools
+ ###### Cloudwatch
+ #### Storage & Databases
+ ###### Relational Database Services – RDS
+ * does not support enabling encryption after creation. Need to create a snapshot, copy the snapshot to an encrypted snapshot and restore it as an encrypted DB.
